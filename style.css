@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+header{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    border-radius: 40px;
+    margin-top: 70px;
+}
+.container{
+    width: 1500px;
+    margin: auto;
+}
+.head-left{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.head-left h1{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+}
+.head-left p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+header button{
+    font-size: 20px;
+    background-color: red;
+    color: aliceblue;
+    padding: 18px 35px;
+    border-radius: 10px;
+}
+.head-right img{
+    width: 850px;
+    margin-top: -200px;
+    margin-bottom: -4px;
+}
+.match{
+    border: 1px solid red;
+    margin-top: 100px;
+}
+.upcoming{
+    width: 360px;
+    background-color: black;
+    border:1px solid rgb(157, 241, 0);
+    float: left;
+    padding: 50px 0px;
+    border-radius: 8px;
+}
+.upcoming a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    background-color: white;
+    font-size: 22px;
+    padding: 25px 30px;
+    margin-top: 20px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    font-weight:650 ;
+}
+.red a{
+    background-color: red;
+    color: white;
+}
+
+.match-right{
+    display: inline-block;
+    float: left;
+    border: 2PX SOLID black ;
+
+}
+.transfer{
+    width: 350px;
+    display: inline-block;
+    margin-left: 22px;
+}
+.transfer img{
+    width: 100%;
+}
